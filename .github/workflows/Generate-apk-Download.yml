@@ -1,11 +1,11 @@
-name: (On Research) Generated APK AAB (Download (still in development))
+name: APK Download 
 
 env:
   # The name of the main module repository
   main_project_module: app
 
   # The name of the Play Store
-  playstore_name: Frogobox ID
+  playstore_name: Termux-x11
 
 on:
   # Allows you to run this workflow manually from the Actions tab
@@ -14,7 +14,7 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: android
 
     steps:
       - uses: actions/checkout@v3
